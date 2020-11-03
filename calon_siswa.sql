@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `form_pendaftaran_siswa`
+-- Database: `pendaftaran_siswa`
 --
 
 -- --------------------------------------------------------
@@ -27,14 +27,15 @@ SET time_zone = "+00:00";
 -- Struktur dari tabel `calon_siswa`
 --
 
-CREATE TABLE `calon_siswa` (
-  `id` int(11) NOT NULL,
-  `nama` varchar(64) NOT NULL,
-  `alamat` varchar(255) NOT NULL,
-  `jenis_kelamin` varchar(16) NOT NULL,
-  `agama` varchar(16) NOT NULL,
-  `sekolah_asal` varchar(64) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE `pendaftaran_siswa`.`calon_siswa` (
+    `id` INT NOT NULL AUTO_INCREMENT ,  
+    `nama` VARCHAR(64) NOT NULL ,  
+    `alamat` VARCHAR(255) NOT NULL ,  
+    `jenis_kelamin` VARCHAR(16) NOT NULL ,  
+    `agama` VARCHAR(16) NOT NULL ,  
+    `sekolah_asal` VARCHAR(64) NOT NULL ,    
+    PRIMARY KEY  (`id`)
+) ENGINE = InnoDB;
 
 --
 -- Dumping data untuk tabel `calon_siswa`
