@@ -15,15 +15,15 @@ Build with :
 
 # Account Demos 
 1. Admin :
-  - Email     : Azmifxuzy@gmail.com
+  - Email     : ahmadtsani145@gmail.com
   - Password  : 123
 2. Member : 
-  - Email     : Azmifauzy@gmail.com
+  - Email     : ahmadtsani145@gmail.com
   - Password  : 123
 
 # Follow Me 
-- Facebook  : https://facebook.com/alliensec
-- Instagram : https://instagram.com/azmifauzy.id
+- Facebook  : https://facebook.com/ahmadtsani145
+- Instagram : https://instagram.com/ahmadtsani145
 
 
 Thanks :)
