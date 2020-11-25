@@ -1,0 +1,93 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;}
+body{
+	color: #996868;
+	background-color: rgb(121, 121, 121);
+    background-position: left;
+    padding: 1px;
+	font-family: Georgia, Helvetica, serif;
+	line-height: 1.0em;
+	margin: 2px;}
+.wrapper {
+        width: 910px;
+        margin: 40px auto 40px auto;
+        border: 2px solid #000000;
+        -webkit-text-fill-color: #000000;
+        background-color: #e2dcd9;}
+ul {
+        list-style-type: none;
+        margin: 2;
+        padding: 2;
+        border: #ffffff;
+        overflow: hidden;
+        background-image: url(d.jpg);}
+section.courses {
+		float: left;
+		width: 900px;
+		height: 500px;}
+        nav, footer {
+            clear: both;
+            color: #ffffff;
+            background-image: url(l.png);
+            height: 30px;}
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;}
+        nav li {
+            display: inline;
+            margin-right: 40px;}
+        nav li a {
+            color: #000000;}
+        nav li a:hover, nav li a.current {
+            color: #000000;}
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;}
+        hgroup {
+            margin-top: 40px;}
+        figure {
+            float: left;
+            width: 290px;
+            height: 220px;}
+        figure.ne{
+            float: left;
+            width: 600px;
+            height: 400px;
+            text-align: center;
+            padding: 5px;
+            margin: 20px;
+            border: 100px solid #000000;}
+        figcaption {
+            font-size: 90%;
+            text-align: center;}
+        aside {
+            width: 230px;
+            float: left;
+            padding: 0px 0px 0px 20px;}
+        aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #000000;}
+        aside section a:hover {
+            color: #000000;
+            background-color: #ffffff;}
+        a {
+            color: #000000;
+            text-decoration: none;}
+        h1 {
+            font-weight: normal;
+            font-style: "Berlin Sans FB";}
+        h2 {
+            margin: 10px 0px 5px 0px;
+            padding: 0px;}
+        h3 {
+            margin: 0px 0px 10px 0px;
+            color: #000000;}
+        aside h2 {
+            padding: 30px 0px 10px 0px;
+            color: #000000;}
+        footer {
+            font-size: 80%;
+            text-align: center;
+            padding: 7px 0px 0px 20px;}
